@@ -25,3 +25,24 @@ body {
 .wu-night.wu-black.wu-clear { background: url(/assets/icons/black/svg/nt_clear.svg) !important; }
 .wu-night.wu-black.wu-cloudy { background: url(/assets/icons/black/svg/nt_cloudy.svg) !important; }
 .wu-night.wu-black.wu-rain { background: url(/assets/icons/black/svg/nt_rain.svg); }
+
+.wrapper {
+  position: absolute;
+  top: 0;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column
+}
+
+.top-content {
+  flex: 1;
+  color: white
+}
+
+.bottom-content {
+  justify-content: end;
+  border-top: 1px solid #dedede;
+  background-color: white
+}
