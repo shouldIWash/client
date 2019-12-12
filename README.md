@@ -1,3 +1,5 @@
+![Image of Yaktocat](/client/blob/master/src/assets/bg-day.png)
+
 # Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
