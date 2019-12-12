@@ -1,4 +1,4 @@
-![Image of Yaktocat](/client/blob/master/src/assets/bg-day.png)
+![Image of Yaktocat](/src/assets/bg-day.png)
 
 # Client
 
