@@ -1,4 +1,10 @@
-![Image of Yaktocat](/src/assets/bg-day.png)
+
+
+|   |   |
+|---|---|
+|  ![Image of Yaktocat](/src/assets/bg-day.png) | ![Image of Yaktocat](/src/assets/bg-day.png)  |
+
+
 
 # Client
 
