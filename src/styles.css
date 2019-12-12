@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+
+
+  /* Location of the image */
+  background: url(https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop) no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.weather-text:after {
+  content: "\00b0"
+}
+
+.wu-black.wu-clear { background: url(/assets/icons/black/svg/clear.svg) !important; }
+.wu-black.wu-cloudy { background: url(/assets/icons/black/svg/cloudy.svg) !important; }
+.wu-black.wu-rain { background: url(/assets/icons/white/svg/rain.svg) !important; }
+
+.wu-night.wu-black.wu-clear { background: url(/assets/icons/black/svg/nt_clear.svg) !important; }
+.wu-night.wu-black.wu-cloudy { background: url(/assets/icons/black/svg/nt_cloudy.svg) !important; }
+.wu-night.wu-black.wu-rain { background: url(/assets/icons/black/svg/nt_rain.svg); }
