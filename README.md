@@ -2,7 +2,7 @@
 
 |---|---|---|---|
 |---|---|---|---|
-|  ![Image of Yaktocat](/src/assets/bg-day.png) | ![Image of Yaktocat](/src/assets/bg-day.png)  |  ![Image of Yaktocat](/src/assets/bg-day.png) | ![Image of Yaktocat](/src/assets/bg-day.png)  |
+|  ![BG Day](/src/assets/bg-day.png) | ![white night](/src/assets/white-night.png)  |  ![BG Night](/src/assets/bg-night.png) | ![white day](/src/assets/white-day.png)  |
 
 
 
