@@ -1,0 +1,43 @@
+<div
+  style="display: flex;flex-direction: column;z-index: 2; position: absolute;top: 0;width: 100%;height: -webkit-calc(100%); /* google, safari */height: -moz-calc(100%); /* firefox */">
+  <div style="flex: 1;color: white">
+    <div style="display: flex;flex-direction: column;text-align: center;padding: 3rem 1rem">
+      <span class="weather-text" style="font-size: 4rem;font-weight: bold">{{temp}}</span>
+      <div style="text-align: center">
+        <div *ngIf="weather === 'Clear'">
+          <i class="wu wu-black wu-clear wu-256" [ngClass]="isNight ? 'wu-night': 'wu-day'"></i>
+        </div>
+        <div *ngIf="weather === 'Clouds'">
+          <i class="wu wu-black wu-cloudy wu-256" [ngClass]="isNight ? 'wu-night': 'wu-day'"></i>
+          clouds
+        </div>
+        <div *ngIf="weather === 'Rain'">
+          <i class="wu wu-black wu-rain wu-256" [ngClass]="isNight ? 'wu-night': 'wu-day'"></i>
+          rain
+        </div>
+      </div>
+      <span style="font-size: 1.5rem;margin-bottom: 1rem">{{city}}</span>
+      <span>{{rainyDays}} day of posible rain</span>
+
+      <span>{{rainyDays > 2 ? 'Do not' : 'Go ahead and'}} wash car</span>
+    </div>
+  </div>
+  <div style="justify-content: end;border-top: 1px solid #dedede;background-color: white">
+    <div style="display: flex;flex-direction: row;justify-content: space-between;padding: 3rem 2rem">
+      <div *ngFor="let day of dayWeather" style="display: flex;flex-direction: column;text-align: center">
+        <span style="font-size: .8rem">{{day.dayOfWeek}}</span>
+        <div *ngIf="day.weather === 'Clear'">
+          <i class="wu wu-black wu-clear wu-32" style="margin: .5rem 0;"></i>
+        </div>
+        <div *ngIf="day.weather === 'Clouds'">
+          <i class="wu wu-black wu-cloudy wu-32" style="margin: .5rem 0;"></i>
+        </div>
+        <div *ngIf="day.weather === 'Rain'">
+          <i class="wu wu-black wu-rain wu-32" style="margin: .5rem 0;"></i>
+        </div>
+        <span class="weather-text">{{day.temp}}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
